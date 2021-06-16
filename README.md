@@ -114,7 +114,7 @@ Dim WS As Worksheet
     Range("O3").NumberFormat = "0.00%"
     
     Range("O4").Value = WorksheetFunction.Max(Range("L:L"))
-    Range("O4").NumberFormat = "$#,##0"
+    Range("O4").NumberFormat = "#,##0"
     
     
 Next WS
