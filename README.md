@@ -79,7 +79,7 @@ Dim WS As Worksheet
             'Set Stock Volume
             Total_sv = Total_sv + Cells(i, 7).Value
             Range("L" & Summary_Table_Row).Value = Total_sv
-            Range("L" & Summary_Table_Row).NumberFormat = "$#,##0"
+            Range("L" & Summary_Table_Row).NumberFormat = "#,##0"
            'reset the volume
              Total_sv = 0
              
